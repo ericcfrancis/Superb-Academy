@@ -1,0 +1,84 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Superb Academy-NEWS</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,400;1,600&display=swap" rel="stylesheet">
+		<link href="./images/logo.jpg" rel="shortcut icon">
+		<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!--Header -->
+		<section class="sub-header">
+			<nav>
+				<a href="index.html"><img src="./images/icon.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="news.html">NEWS</a></li>
+						<li><a href="contacts.html">CONTACTS</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+			<h1>News</h1>
+		</section>
+
+		<!--News 1-->
+		<section class="news-content">
+			<div class="row">
+				<div class="news-col">
+					<img src="images/farewell.jpg">
+				</div>
+				<div class="news-col">
+					<h1>Madam Natalie</h1>
+					<p>Superb Academy will miss the presence of Madam Natalie who has been with us since the beginning. Madam Natalie will be transferring to other school. A farewell party for Madam Natalie will be held on 23/06/2021. More of this news later</p>
+				</div></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="news-col">
+					<img src="images/kidwithglasses.jpg">
+				</div>
+				<div class="news-col">
+					<h1>All smiles in June</h1>
+					<p>As we are celebrating the anniversary of Superb Academy, there will be a lot of fun events in this month. Stay tuned to know more!</p>
+				</div>
+			</div>
+			
+		</section>
+
+
+		<!--Footer-->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Get to know us more through our socials.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-youtube"></i>
+			</div>
+			<p>Eric Francis BI19110293</p>
+		</section>
+
+
+	<!--Javascript for menu-->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+	</body>
+	</html>

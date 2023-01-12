@@ -1,0 +1,174 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Superb Academy-HOME</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,400;1,600&display=swap" rel="stylesheet">
+		<link href="./images/logo.jpg" rel="shortcut icon">
+		<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<!--Header -->
+		<section class="header">
+			<nav>
+				<a href="index.html"><img src="./images/icon.png"></a>
+				<div class="nav-links" id="navLinks">
+					<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="news.html">NEWS</a></li>
+						<li><a href="contacts.html">CONTACTS</a></li>
+					</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+
+		<div class="text-box">
+			<div class="text-holder">
+				<h1>Welcome to Superb Academy</h1>
+				<p>Surround your kids with people that will only lift them higher.</p>
+			</div>
+			
+			
+			<div class="form-btn">
+				<input type="checkbox" id="show">
+	   			<label for="show" class="show-btn">Login</label>
+
+	    		<div class="container">
+	        		<label for="show" class="close-btn" title="close">×</label>
+	     	   		<h1>WELCOME</h1>
+	      	  		<form action="#">
+	      	  		<label>Email or Phone</label>
+	        		<input type="text" required>
+	        		<label>Password</label>
+	        		<input type="password" required>
+	        		<a href="#">Forgot Password?</a>
+	        		<button>Login</button>
+	        		<div class="link">Not yet registered? <a href="#">Sign up here</a></div>
+	        		</form>
+	        	</div>
+			</div>
+			
+		</div>
+		</section>
+
+		<!---Quality--->
+		<section class="quality">
+			<h1>Our Qualities</h1>
+			<p>Superb Academy is a wise platform for your kids' early education.</p>
+
+			<div class="row">
+				<div class="quality-col">
+					<h3>Profesionalism</h3>
+					<p>All the staffs in Superb Academy are made sure to be profesional. This is to brings the best for the students</p>
+				</div>
+				<div class="quality-col">
+					<h3>Fun</h3>
+					<p>The students will be enjoying the learning process while getting the most of their potential.</p>
+				</div>
+				<div class="quality-col">
+					<h3>Facilities</h3>
+					<p>Top quality of learning facilities, and of course the level of safety.</p>
+				</div>
+			</div>
+		</section>
+
+		<!--Staff--->
+		<section class="staffs">
+			<h1>Our Staffs</h1>
+			<p>The heads of Superb Academy.</p>
+			
+			<div class="row">
+				<div class="staffs-col">
+					<img src="images/teacher1.png">
+					<h3>Mr. Zulfadhli</h3>
+					<p>The headmaster of Superb Academy.</p>
+				</div>
+				<div class="staffs-col">
+					<img src="images/teacher2.png">
+					<h3>Ms. Andora</h3>
+					<p>A teacher with a bachelor of early childhood education</p>
+				</div>
+				<div class="staffs-col">
+					<img src="images/teacher3.png">
+					<h3>Ms. Chantry</h3>
+					<p>The head of the Community of Superb Academy</p>
+				</div>
+				
+			</div>
+		</section>
+
+
+		<!--Testimonials--->
+		<section class="testimonials">
+			<h1>What the parents say?</h1>
+			<p>Let's hear what the parents say...</p>
+
+			<div class="row">
+				<div class="testimonials-col">
+					<img src="images/parents1.jpg">
+					<div>
+						<p>Superb Academy is the best!</p>
+						<h3>Micheal Abel</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					
+				</div>
+				<div class="testimonials-col">
+					<img src="images/parents2.jpg">
+					<div>
+						<p>Superb Academy is the best for the kids' early education.</p>
+						<h3>Fred Sabine</h3>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o"></i>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+
+		<!---contact--->
+		<section class="contacts">
+			<h1>Register your kids now</h1>
+			<a href="" class="hero-btn">Register</a>
+		</section>
+
+		<!--Footer-->
+		<section class="footer">
+			<h4>About Us</h4>
+			<p>Get to know us more through our socials.</p>
+			<div class="icons">
+				<i class="fa fa-facebook"></i>
+				<i class="fa fa-twitter"></i>
+				<i class="fa fa-instagram"></i>
+				<i class="fa fa-youtube"></i>
+			</div>
+			<p>Eric Francis BI19110293</p>
+		</section>
+
+
+	<!--Javascript for menu-->
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+	</body>
+	</html>
